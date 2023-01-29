@@ -47,7 +47,7 @@ io.on("connection", (socket)=>{
 
 
 
-const port = 5500 || process.env.PORT
+const port = process.env.PORT
 
 
 server.listen(port, ()=>{
